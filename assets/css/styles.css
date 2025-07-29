@@ -37,6 +37,7 @@
 
 .grid-main-heading {
     margin-bottom: 1rem;
+    max-width: 100%;
 }
 
 .grid-description {
@@ -236,6 +237,11 @@
 
     .menu-spacing {
         display: none;
+    }
+
+    .grid-main-heading {
+        text-align: center;
+        word-wrap: break-word;
     }
 
 }
